@@ -13,8 +13,15 @@ title="Tassie Calling">}}
 
 <p class="main">Protect Tasmania is working to build a stronger future for threatened species conservation by advancing the use of bioacoustic detection and monitoring across Tasmania. 
 
+{{< section/project-progress >}}
+{{< /section/project-progress >}}
+
+{{< /section >}}
+
+{{< section class="main-info light-theme" >}}
+
 </p><p>
-Supported through projects funded by the Wedgetail Foundation and Natural Resources and Environment Tasmania, and delivered in partnership with organisations including Ecotec Environmental and the Bruny Island Environment Network, this work is bringing together bird experts, researchers, landholders and citizen scientists to improve how threatened species are detected, monitored and managed.</p>
+Supported through projects funded by the <a href="https://www.wedgetail.vc/">Wedgetail Foundation</a> and <a href="https://nre.tas.gov.au/">Natural Resources and Environment Tasmania</a>, and delivered in partnership with organisations including <a href="https://ecotec.au/">Ecotec Environmental</a>, and the <a href="https://www.bien.org.au/">Bruny Island Environment Network</a>, this work is bringing together bird experts, researchers, landholders and citizen scientists to improve how threatened species are detected, monitored and managed.</p>
 
 <p>At its core, this work is about using sound to fill some of the biggest gaps in conservation knowledge. Many of Tasmania's threatened birds and other vocal species are difficult to monitor using traditional methods because they are cryptic, nocturnal, sparsely distributed, or occur in habitats that are hard to access. Passive acoustic monitoring offers a practical and scalable way to detect these species over larger areas and longer timeframes, while reducing the need for repeated expert field visits. By combining sound recorders, expert call identification and developing call recognisers, these projects are helping create better tools for understanding species distributions, habitat use and population trends.</p>
 
@@ -46,8 +53,7 @@ imagePosition="left" >}}
     </div>
 </div>
 
-{{< section/project-progress >}}
-{{< /section/project-progress >}}
+
 
 {{< /section/image-column >}}
 
@@ -97,7 +103,7 @@ Dr Siobhan de Little is an Environmental Analyst at Ecotec Environmental and an 
 
 {{< /section >}}
 
-{{< section class="section" >}}
+{{< section class="section light-theme" >}}
 <div class="contact-cards">
   <div class="contact-card">
     {{< asset-image src="images/protect_tasmania_dark.png" alt="Protect Tasmania" class="contact-logo" >}}
@@ -110,7 +116,7 @@ Dr Siobhan de Little is an Environmental Analyst at Ecotec Environmental and an 
 </div>
 {{< /section >}}
 
-{{< sponsors class="fullbleed sponsors-section" />}}
+{{< sponsors class="fullbleed sponsors-section light-theme" />}}
 
 
 
