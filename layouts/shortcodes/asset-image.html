@@ -1,0 +1,8 @@
+{{- with resources.Get (.Get "src") -}}
+  <img
+    src="{{ .RelPermalink }}"
+    alt="{{ $.Get "alt" }}"
+    loading="{{ $.Get "loading" | default "lazy" }}"
+    {{- with $.Get "class" }} class="{{ . }}"{{ end -}}
+  >
+{{- end -}}
