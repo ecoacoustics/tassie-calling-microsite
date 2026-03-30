@@ -1,0 +1,7 @@
+.hugo_build.lock
+/resources
+/ef
+/public
+
+.DS_Store
+.vscode/

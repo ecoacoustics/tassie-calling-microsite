@@ -1,0 +1,175 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap");
+
+:root {
+    --micro-heading-font: "Gowun Batang", serif;
+    --micro-body-font: "Gowun Batang", serif;
+}
+
+
+p, h1, h2, h3, h4, h5, h6, a.oe-brand {
+    color: var(--micro-theme-color);
+}
+
+#home-page {
+
+    .oe-hero {
+        background-position: center 30%;
+    }
+
+    .oe-hero .hero-content-container {
+        align-items: flex-start;  
+        padding-top: 8%;         
+    }
+
+    .oe-hero .hero-content-container .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--micro-padding-small);
+        margin: 0;
+    }
+
+
+
+    .oe-hero .hero-content-container .hero-content > * {
+        align-self: flex-start;
+    }
+
+    .oe-hero .slotted-hero-content h2 {
+        margin: 0;
+        color: white;
+        text-shadow: 4px 2px 3px black;
+        font-family: var(--micro-heading-font);
+        font-size: clamp(0.9rem, 3.8vw, 2.6rem);
+        line-height: 1.2;
+    }
+
+    .oe-hero .slotted-hero-content {
+        width: 100%;
+        max-width: 35vw;
+    }
+
+    @media (max-width: 90em) {
+        .oe-hero .slotted-hero-content {
+            max-width: 45vw;
+        }
+    }
+
+    @media (max-width: 64em) {
+        .oe-hero .slotted-hero-content h2 {
+            font-size: 1.6rem;
+        }
+    }
+
+    @media (max-width: 48em) {
+        .oe-hero .slotted-hero-content h2 {
+            font-size: 1.2rem;
+        }
+    }
+
+    @media (max-width: 31.25em) {
+        .oe-hero .slotted-hero-content h2 {
+            font-size: 0.9rem;
+        }
+    }
+
+    .oe-call-to-action {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: 1.3rem;
+
+        p {
+
+            line-height: 1.8;
+            margin-top: 1em;
+        }
+
+        p.main {
+            font-size: 1.8rem;
+            color: var(--micro-theme-color);
+        }
+    }
+
+
+
+
+
+
+
+    .people-section sl-card.person-card img[slot="image"] {
+        width: 100%;
+        aspect-ratio: 4 / 5;
+        object-fit: cover;
+        object-position: center 25%;
+    }
+
+    .page-section.research-band {
+        background-color: var(--micro-theme-color);
+    }
+
+    .page-section.team-band {
+        background-color: var(--micro-theme-color);
+    }
+
+    .page-section.research-band h2,
+    .page-section.research-band p,
+    .page-section.research-band li,
+    .page-section.research-band .oe-image-caption,
+    .page-section.research-band a {
+        color: var(--micro-font-color-light);
+    }
+
+    .page-section.research-band p,
+    .page-section.research-band li {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+
+    .page-section.team-band h2 {
+        color: var(--micro-font-color-light);
+    }
+
+    .page-section.team-band .people-section sl-card.person-card {
+        color: var(--micro-theme-color);
+    }
+
+    .page-section.team-band .people-section sl-card.person-card a {
+        color: inherit;
+    }
+
+    .page-section.team-band .people-section sl-card.person-card h3 {
+        font-size: 1.5rem;
+    }
+
+    .page-section.team-band .people-section sl-card.person-card p {
+        font-size: 1.10rem;
+        line-height: 1.6;
+    }
+
+    .contact-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--micro-padding-medium);
+        justify-content: center;
+    }
+
+    .contact-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex: 0 1 340px;
+        max-width: 380px;
+    }
+
+    .contact-card .contact-logo {
+        height: 120px;
+        max-width: 200px;
+        width: 100%;
+        object-fit: contain;
+        margin-bottom: var(--micro-padding-small);
+    }
+
+}
+
