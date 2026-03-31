@@ -26,7 +26,7 @@ params:
   navbar:
     logo:
       image: "images/protect_tasmania.png" # default: none
-      text: " " # default: {{ .site.Title }}
+      text: "Tassie Calling" # default: {{ .site.Title }}
   # sponsors:
   #   logos:
   #     - image: "images/OpenEcoacoustics_horizontal_rgb.svg"

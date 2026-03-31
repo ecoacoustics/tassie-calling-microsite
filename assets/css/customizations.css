@@ -14,9 +14,9 @@
     --micro-font-size-xsmall: 0.9rem;
 }
 
-/* p, h1, h2, h3, h4, h5, h6, a.oe-brand {
-    color: var(--micro-theme-color);
-} */
+.oe-navbar-logo-text {
+    margin-left: 0.8em;
+}
 
 #home-page {
 
@@ -88,7 +88,7 @@
 
         > .page-section-content {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             justify-content: space-between;
             gap: var(--micro-padding-large);
         }
@@ -162,6 +162,13 @@
         aspect-ratio: 4 / 5;
         object-fit: cover;
         object-position: center 25%;
+        transform: scale(1.3);
+        transform-origin: center 40%;
+    }
+
+    .people-section sl-card.person-card:first-child img[slot="image"] {
+        transform: scale(1.6);
+        transform-origin: center 0%;
     }
 
     .page-section.research-band {
@@ -273,3 +280,9 @@
 
 }
 
+
+
+.login-container, .spectrogram-card {
+    color: var(--micro-font-color-dark);
+    --oe-font-color: var(--micro-font-color-dark) !important;
+}
