@@ -13,49 +13,44 @@ title="Tassie Calling">}}
 
 <p class="main">Protect Tasmania is working to build a stronger future for threatened species conservation by advancing the use of bioacoustic detection and monitoring across Tasmania. 
 
-</p><p>
-Supported through projects funded by the Wedgetail Foundation and Natural Resources and Environment Tasmania, and delivered in partnership with organisations including Ecotec Environmental and the Bruny Island Environment Network, this work is bringing together bird experts, researchers, landholders and citizen scientists to improve how threatened species are detected, monitored and managed.</p>
-
-<p>At its core, this work is about using sound to fill some of the biggest gaps in conservation knowledge. Many of Tasmania's threatened birds and other vocal species are difficult to monitor using traditional methods because they are cryptic, nocturnal, sparsely distributed, or occur in habitats that are hard to access. Passive acoustic monitoring offers a practical and scalable way to detect these species over larger areas and longer timeframes, while reducing the need for repeated expert field visits. By combining sound recorders, expert call identification and developing call recognisers, these projects are helping create better tools for understanding species distributions, habitat use and population trends.</p>
-
-<p>Every call you identify adds to a shared resource that can improve conservation decision-making, support landholder stewardship, and build a clearer picture of where Tasmania's threatened species occur, how populations are changing over time, and what habitats they depend on.</p>
+{{< section/project-progress >}}
+{{< /section/project-progress >}}
 
 {{< /section >}}
+
+{{% section class="main-info light-theme" %}}
+
+Supported through projects funded by the [Wedgetail Foundation](https://www.wedgetail.vc/) and [Natural Resources and Environment Tasmania](https://nre.tas.gov.au/), and delivered in partnership with organisations including [Ecotec Environmental](https://ecotec.au/), and the [Bruny Island Environment Network](https://www.bien.org.au/), this work is bringing together bird experts, researchers, landholders and citizen scientists to improve how threatened species are detected, monitored and managed.
+
+At its core, this work is about using sound to fill some of the biggest gaps in conservation knowledge. Many of Tasmania's threatened birds and other vocal species are difficult to monitor using traditional methods because they are cryptic, nocturnal, sparsely distributed, or occur in habitats that are hard to access. Passive acoustic monitoring offers a practical and scalable way to detect these species over larger areas and longer timeframes, while reducing the need for repeated expert field visits. By combining sound recorders, expert call identification and developing call recognisers, these projects are helping create better tools for understanding species distributions, habitat use and population trends.
+
+Every call you identify adds to a shared resource that can improve conservation decision-making, support landholder stewardship, and build a clearer picture of where Tasmania's threatened species occur, how populations are changing over time, and what habitats they depend on.
+
+{{% /section %}}
 
 
 
 {{< section class="research-band" >}}
 
-{{< section/image-column
+{{% section/image-column
 image="images/tweetybird.jpg"
 alt="Gang-gang Cockatoo on a roof"
 caption="Image: Chris Tzaros"
-imagePosition="left" >}}
+imagePosition="left" %}}
 
-<div>
-    <div>
-        <h2>Research Objectives</h2>
-                <p>By helping identify Tassie's priority bird calls, you're contributing to a growing library of acoustic data that:</p>
-                <ul>
-                    <li>Better defines Tasmania's priority species for acoustic detection and long-term monitoring</li>
-                    <li>Improves our understanding of Tasmania's endemic species, subspecies and regional dialects</li>
-                    <li>Helps artificial intelligence training datasets</li>
-                    <li>Contributes to conservation initiatives involving threatened species, declining communities and habitat under threat</li>
-                    <li>Encourages landholders to deploy acoustic sensors on private land</li>
-                </ul>
-    </div>
-</div>
+## Research Objectives
 
-{{< section/project-progress >}}
-{{< /section/project-progress >}}
+By helping identify Tassie's priority bird calls, you're contributing to a growing library of acoustic data that:
 
-{{< /section/image-column >}}
+- Better defines Tasmania's priority species for acoustic detection and long-term monitoring
+- Improves our understanding of Tasmania's endemic species, subspecies and regional dialects
+- Helps artificial intelligence training datasets
+- Contributes to conservation initiatives involving threatened species, declining communities and habitat under threat
+- Encourages landholders to deploy acoustic sensors on private land
+
+{{% /section/image-column %}}
 
 {{< /section >}}
-
-
-
-
 
 
 
@@ -97,7 +92,7 @@ Dr Siobhan de Little is an Environmental Analyst at Ecotec Environmental and an 
 
 {{< /section >}}
 
-{{< section class="section" >}}
+{{< section class="section light-theme" >}}
 <div class="contact-cards">
   <div class="contact-card">
     {{< asset-image src="images/protect_tasmania_dark.png" alt="Protect Tasmania" class="contact-logo" >}}
@@ -110,7 +105,7 @@ Dr Siobhan de Little is an Environmental Analyst at Ecotec Environmental and an 
 </div>
 {{< /section >}}
 
-{{< sponsors class="fullbleed sponsors-section" />}}
+{{< sponsors class="fullbleed sponsors-section light-theme" />}}
 
 
 

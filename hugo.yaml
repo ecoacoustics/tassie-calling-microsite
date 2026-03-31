@@ -12,10 +12,10 @@ services:
   # googleAnalytics:
   #   id: G-MEASUREMENT_ID
 menus:
-  # main:
-  #   - name: Credits
-  #     pageRef: https://ecosounds.org/about/credits
-  #     weight: 10
+  main:
+    - name: About
+      pageRef: https://protecttasmania.org/
+      weight: 10
 # Avoid camel casing params. Hugo downcases all params when it parses the config.
 # We can still case-insensitively access params, but if we try to dump them as a json blob
 # we will lose the camel casing which can be confusing later.
@@ -23,10 +23,10 @@ params:
   api_host: https://api.ecosounds.org
   workbench_host: https://api.ecosounds.org
   hero_image: images/fortyspotted_wide.jpg
-  # navbar:
-  #   logo:
-  #     image: "images/OpenEcoacoustics_horizontal_rgb.svg" # default: none
-  #     text: "Call Detective" # default: {{ .site.Title }}
+  navbar:
+    logo:
+      image: "images/protect_tasmania.png" # default: none
+      text: "Tassie Calling" # default: {{ .site.Title }}
   # sponsors:
   #   logos:
   #     - image: "images/OpenEcoacoustics_horizontal_rgb.svg"
@@ -50,18 +50,18 @@ params:
     # To create your own hsl theme color, you can use the following website.
     # https://hslpicker.com/#ca7d2f
     themeColor:
-      hue: 196deg
-      saturation: 30.8%
-      lightness: 30.6%
+      hue: 19deg
+      saturation: 97.1%
+      lightness: 59.6%
     themeShades:
-      "50": hsl(from hsl(196deg 30.8% 30.6%) h s calc(l + 0.62))
-      "100": hsl(from hsl(196deg 30.8% 30.6%) h s calc(l + 0.52))
-      "200": hsl(from hsl(196deg 30.8% 30.6%) h s calc(l + 0.40))
-      "300": hsl(from hsl(196deg 30.8% 30.6%) h s calc(l + 0.28))
-      "400": hsl(from hsl(196deg 30.8% 30.6%) h s calc(l + 0.14))
-      "500": hsl(from hsl(196deg 30.8% 30.6%) h s calc(l + 0.00))
-      "600": hsl(from hsl(196deg 30.8% 30.6%) h s calc(l - 0.08))
-      "700": hsl(from hsl(196deg 30.8% 30.6%) h s calc(l - 0.14))
-      "800": hsl(from hsl(196deg 30.8% 30.6%) h s calc(l - 0.20))
-      "900": hsl(from hsl(196deg 30.8% 30.6%) h s calc(l - 0.26))
-      "950": hsl(from hsl(196deg 30.8% 30.6%) h s calc(l - 0.32))
+      "50": hsl(from hsl(19deg 97.1 59.6) h s calc(l + 0.62))
+      "100": hsl(from hsl(19deg 97.1 59.6) h s calc(l + 0.52))
+      "200": hsl(from hsl(19deg 97.1 59.6) h s calc(l + 0.40))
+      "300": hsl(from hsl(19deg 97.1 59.6) h s calc(l + 0.28))
+      "400": hsl(from hsl(19deg 97.1 59.6) h s calc(l + 0.14))
+      "500": hsl(from hsl(19deg 97.1 59.6) h s calc(l + 0.00))
+      "600": hsl(from hsl(19deg 97.1 59.6) h s calc(l - 0.08))
+      "700": hsl(from hsl(19deg 97.1 59.6) h s calc(l - 0.14))
+      "800": hsl(from hsl(19deg 97.1 59.6) h s calc(l - 0.20))
+      "900": hsl(from hsl(19deg 97.1 59.6) h s calc(l - 0.26))
+      "950": hsl(from hsl(19deg 97.1 59.6) h s calc(l - 0.32))
