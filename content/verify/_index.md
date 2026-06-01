@@ -1,5 +1,5 @@
 +++
-title = "Can you hear a Plains Wanderer?"
+title = "Can you hear a Forty-spotted Pardalote?"
 +++
 
 <oe-verification-grid data-campaign="Forty-spotted Pardalote" id="verification-grid" grid-size="1">
@@ -29,31 +29,11 @@ title = "Can you hear a Plains Wanderer?"
     ></oe-data-source>
 </oe-verification-grid>
 
-<div class="examples-container">
-    <h3>Example Calls</h3>
-    <div class="example-calls">
-        {{< event-card audioRecordingId="2261716" audioEventId="309752" label="Forty-spotted Pardalote" >}}
-        {{< /event-card >}}
-        {{< event-card audioRecordingId="2261716" audioEventId="309748" label="Forty-spotted Pardalote" >}}
-        {{< /event-card >}}
-        {{< event-card audioRecordingId="2261720" audioEventId="309757" label="Forty-spotted Pardalote" >}}
-        {{< /event-card >}}
-    </div>
-</div>
+<p class='examples-link'><a href="/verify/example-calls/" target="_blank" rel="noopener">example calls</a></p>
 
 <style>
-.examples-container {
-    margin-block: var(--micro-padding-large);
-}
-
-.example-calls {
-    display: flex;
-    gap: var(--micro-padding-medium);
-    flex-wrap: wrap;
-
-    > * {
-        flex: 1 1;
-        min-width: 20rem;
+    .examples-link {
+        margin: auto;
+        font-size: 1.5em;
     }
-}
 </style>

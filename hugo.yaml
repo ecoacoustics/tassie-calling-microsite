@@ -16,6 +16,9 @@ menus:
     - name: About
       pageRef: https://protecttasmania.org/
       weight: 10
+    - name: Example Calls
+      pageRef: /verify/example-calls/
+      weight: 20
 # Avoid camel casing params. Hugo downcases all params when it parses the config.
 # We can still case-insensitively access params, but if we try to dump them as a json blob
 # we will lose the camel casing which can be confusing later.

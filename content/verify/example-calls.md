@@ -1,67 +1,31 @@
 +++
-title = "How does a Plains Wanderer sound like?"
+title = "Forty Spotted Pardalote Example Calls"
 +++
 
-{{< section/cards >}}
+<div class="examples-container">
+    <div class="example-calls">
+        {{< event-card audioRecordingId="2261716" audioEventId="309752" label="Forty-spotted Pardalote" >}}
+        {{< /event-card >}}
+        {{< event-card audioRecordingId="2261716" audioEventId="309748" label="Forty-spotted Pardalote" >}}
+        {{< /event-card >}}
+        {{< event-card audioRecordingId="2261720" audioEventId="309757" label="Forty-spotted Pardalote" >}}
+        {{< /event-card >}}
+    </div>
+</div>
 
-<sl-card class="card-header">
-    <div slot="header">
-    Female
-    </div>
-    <div class="oe-spectrogram">
-        <oe-axes>
-            <oe-indicator>
-                <oe-spectrogram
-                id="spectrogram-1"
-                src="/example.flac">
-                </oe-spectrogram>
-            </oe-indicator>
-        </oe-axes>
-        <oe-media-controls for="spectrogram-1"></oe-media-controls>
-    </div>
-    <div class="oe-spectrogram-card-text">
-        More details
-    </div>
-</sl-card>
+<style>
+.examples-container {
+    margin-block: var(--micro-padding-large);
+}
 
-<sl-card class="card-header">
-    <div slot="header">
-    Male
-    </div>
-    <div class="oe-spectrogram">
-        <oe-axes>
-            <oe-indicator>
-                <oe-spectrogram
-                id="spectrogram-2"
-                src="/example.flac">
-                </oe-spectrogram>
-            </oe-indicator>
-        </oe-axes>
-        <oe-media-controls for="spectrogram-2"></oe-media-controls>
-    </div>
-    <div class="oe-spectrogram-card-text">
-         More details
-    </div>
-</sl-card>
+.example-calls {
+    display: flex;
+    gap: var(--micro-padding-medium);
+    flex-wrap: wrap;
 
-<sl-card class="card-header">
-    <div slot="header">
-    Young Female
-    </div>
-    <div class="oe-spectrogram">
-        <oe-axes>
-            <oe-indicator>
-                <oe-spectrogram
-                id="spectrogram-3"
-                src="/example.flac">
-                </oe-spectrogram>
-            </oe-indicator>
-        </oe-axes>
-        <oe-media-controls for="spectrogram-3"></oe-media-controls>
-    </div>
-    <div class="oe-spectrogram-card-text">
-         More details
-    </div>
-</sl-card>
-
-{{< /section/cards >}}
+    > * {
+        flex: 1 1;
+        min-width: 20rem;
+    }
+}
+</style>
