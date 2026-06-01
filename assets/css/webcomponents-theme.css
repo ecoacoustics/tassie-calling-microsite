@@ -4,7 +4,7 @@
     --oe-theme-lightness: var(--micro-theme-lightness) !important;
 
     --oe-font-color: var(--micro-font-color) !important;
-    --oe-font-color: #fff !important;
+
     --oe-background-color: var(--micro-background-light) !important;
     --oe-selected-color: rgba(255, 255, 255, 0.1) !important;
     --oe-border-color: hsl(var(--oe-theme-hue), calc(var(--oe-theme-saturation) - 30%), calc(var(--oe-theme-lightness) - 5%)) !important;
