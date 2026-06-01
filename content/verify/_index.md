@@ -29,11 +29,12 @@ title = "Can you hear a Forty-spotted Pardalote?"
     ></oe-data-source>
 </oe-verification-grid>
 
-<p class='examples-link'><a href="/verify/example-calls/" target="_blank" rel="noopener">example calls</a></p>
+<p class='examples-link'><a href="/verify/example-calls/" target="_blank" rel="noopener">Example Calls</a></p>
 
 <style>
     .examples-link {
-        margin: auto;
+        margin-block: var(--micro-padding-large);
+        text-align: center;
         font-size: 1.5em;
     }
 </style>

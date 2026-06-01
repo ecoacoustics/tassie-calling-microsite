@@ -1,5 +1,5 @@
 +++
-title = "Forty Spotted Pardalote Example Calls"
+title = "Forty-spotted Pardalote Example Calls"
 +++
 
 <div class="examples-container">
@@ -22,10 +22,10 @@ title = "Forty Spotted Pardalote Example Calls"
     display: flex;
     gap: var(--micro-padding-medium);
     flex-wrap: wrap;
+}
 
-    > * {
-        flex: 1 1;
-        min-width: 20rem;
-    }
+.example-calls > * {
+    flex: 1 1;
+    min-width: 20rem;
 }
 </style>
