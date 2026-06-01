@@ -157,25 +157,6 @@
 
 
 
-    .people-section sl-card.person-card img[slot="image"] {
-        width: 100%;
-        aspect-ratio: 4 / 5;
-        object-fit: cover;
-        object-position: center 25%;
-        transform: scale(1.3);
-        transform-origin: center 40%;
-    }
-
-    .people-section sl-card.person-card:first-child img[slot="image"] {
-        transform: scale(1.6);
-        transform-origin: center 0%;
-    }
-
-    .page-section.research-band {
-        background-color: var(--micro-background-light);
-        font-size: 2.2rem;
-    }
-
     @media (min-width: 48em) {
         .page-section.research-band .oe-image-column {
             align-items: stretch;
@@ -200,19 +181,7 @@
         }
     }
 
-    .page-section.team-band {
-        background-color: var(--micro-background-light);
-    }
 
-    .page-section.team-band .people-section.oe-cards {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    @media (max-width: 64em) {
-        .page-section.team-band .people-section.oe-cards {
-            grid-template-columns: 1fr;
-        }
-    }
 
     .page-section.research-band h2,
     .page-section.research-band p,
@@ -228,15 +197,57 @@
         line-height: 1.8;
     }
 
+    .page-section.research-band {
+        background-color: var(--micro-background-light);
+        font-size: 2.2rem;
+    }
+    
+    .page-section.team-band {
+        background-color: var(--micro-background-light);
+    }
+
+
+
+    .person-card img[slot="image"] {
+        object-position: center 25%;
+        transform: scale(1.3);
+        transform-origin: center 40%;
+    }
+
+
+    /* first profile needs extra zoom in */
+    .people-section sl-card.person-card:first-child img[slot="image"] {
+        transform: scale(1.6);
+        transform-origin: center 0%;
+    }
+
+
+
+    .page-section.team-band .people-section.oe-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 64em) {
+        .page-section.team-band .people-section.oe-cards {
+            grid-template-columns: 1fr;
+        }
+    }
+
     .page-section.team-band h2 {
         color: var(--micro-font-color-light);
     }
 
     .page-section.team-band .people-section sl-card.person-card {
         color: var(--micro-font-color-dark);
-        img {
-            border-bottom: 8px solid var(--micro-theme-color);
-        }
+    }
+
+    .page-section.team-band .people-section sl-card.person-card::part(image) {
+        border-bottom: 8px solid var(--micro-theme-color);
+    }
+
+    .page-section.team-band .people-section sl-card.person-card img[slot="image"] {
+        border-bottom: none;
+        box-shadow: none;
     }
 
     .page-section.team-band .people-section sl-card.person-card a {
@@ -251,6 +262,11 @@
         font-size: 1.10rem;
         line-height: 1.6;
     }
+
+
+
+
+
 
     .contact-cards {
         display: flex;
@@ -279,7 +295,6 @@
 
 
 }
-
 
 
 .login-container, .spectrogram-card {
